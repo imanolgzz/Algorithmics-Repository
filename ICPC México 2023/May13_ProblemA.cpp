@@ -4,12 +4,9 @@
 #include <string>
  
 using namespace std;
- 
- 
 
 int main()
 {
-
     int nombres;
     int palabras;
     int uniqueNames;
@@ -37,7 +34,7 @@ int main()
     uniqueNames = nombresUnicos.size();
     cout << int(uniqueNames) << endl;
 
-    // retornar el tamaño del multiset
+    // Return multiset size
 
     return 0;
 }
